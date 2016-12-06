@@ -1,0 +1,8 @@
+RandomLogo
+change the logo to then updated
+Author: Edson Ordaz
+Submitted: 19th November 2010
+
+* Translated the plugin code to english and and updated 11/29/2016 for 1.8.x usage by Vintagedaddyo
+
+Random Logo updates when you change or refresh the page the logo change determined by the images in the admin panel that you enter!
