@@ -8,7 +8,7 @@
  *
  * MyBB Version: 1.8
  *
- * Plugin Version: 1.1
+ * Plugin Version: 1.2
  * 
  */
 
@@ -52,19 +52,19 @@ function RandomLogo_activate(){
 	global $db, $lang;
 	
 	$RandomLogo = array(
-		"gid" =>			NULL,
+		"gid" =>            "0",
 		"name" => $lang->name_0,
 		"title" => $lang->title_0,
 		"description" =>	"",
 		"disporder" =>		"0",
-		"isdefault" =>		"no"
+		"isdefault" =>		"0"
 	);
 
 	$db->insert_query("settinggroups", $RandomLogo);
 	$gid = $db->insert_id();
 
 	$RandomLogo_1 = array(
-		"sid"			=> NULL,
+		"sid"			=> "0",
 		"name" => $lang->name_1,
 		"title" => $lang->title_1,
 		"description" => $lang->description_1,
@@ -75,7 +75,7 @@ function RandomLogo_activate(){
 	);
 
 	$RandomLogo_2 = array(
-		"sid"			=> NULL,
+		"sid"			=> "0",
 		"name" => $lang->name_2,
 		"title" => $lang->title_2,
 		"description" => $lang->description_2,
@@ -86,7 +86,7 @@ function RandomLogo_activate(){
 	);
 
 	$RandomLogo_3 = array(
-		"sid"			=> NULL,
+		"sid"			=> "0",
 		"name" => $lang->name_3,
 		"title" => $lang->title_3,
 		"description" => $lang->description_3,
@@ -97,7 +97,7 @@ function RandomLogo_activate(){
 	);
 
 	$RandomLogo_4 = array(
-		"sid"			=> NULL,
+		"sid"			=> "0",
 		"name" => $lang->name_4,
 		"title" => $lang->title_4,
 		"description" => $lang->description_4,
@@ -108,7 +108,7 @@ function RandomLogo_activate(){
 	);
 
 	$RandomLogo_5 = array(
-		"sid"			=> NULL,
+		"sid"			=> "0",
 		"name" => $lang->name_5,
 		"title" => $lang->title_5,
 		"description" => $lang->description_5,
